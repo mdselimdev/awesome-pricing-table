@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    margin: 70px 0;
+}
+.main-div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.div-one-row , .div-two-row{
+    width: 48.5%;
+}
+.upper-heading{
+    width: 100%;
+    text-align: center;
+    background: #EE2C7B;
+    padding: 15px 14px;
+}
+
+.upper-heading h1{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.upper-heading p{
+    color: #fff;
+    font-size: 14px;
+}
+.upper-heading-two{
+    background: #66348F;
+}
+
+.pricing-section{
+    width: 100%;
+    background: #F3F5F7;
+    padding: 40px 60px;
+}
+
+.pricing-upper{
+    text-align: center;
+}
+
+.price-ele del{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    margin-right: 15px;
+}
+
+.price-ele span {
+    font-size: 62px;
+    font-weight: 800;
+    color: #EE2C7B;
+}
+
+.left-price{
+    color: #66348F !important;
+}
+.doller-sign{
+    font-size: 20px;
+}
+
+.price-under {
+    font-size: 18px;
+    color: #555555;
+    margin-top: -17px;
+    font-weight: 500;
+}
+
+.pricing-list-item{
+    margin-top: 30px;
+}
+
+.pricing-list-item p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #333333;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 19px 0;
+}
+
+.left-list{
+    border-bottom: none;
+}
+
+.pricing-list-item p i{
+    font-size: 22px;
+    color: #333333;
+    margin-right: 8px;
+}
+
+.buy-now-btn {
+    background: #5bc18b;
+    border: 0;
+    font-size: 24px;
+    padding: 14px 30px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+.buy-now-btn:hover{
+    background: #51ad80;
+    cursor: pointer;
+}
+.buy-now-link{
+    text-decoration: none;
+    color: #ee2c7b;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s;
+}
+.buy-now-link:hover{
+    color: #c40c56;
+}
+
+@media (max-width:500px) {
+    .main-div{
+        padding: 0 10px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-one-row , .div-two-row{
+        width: 100%;
+    }
+    .div-two-row{
+        margin-top: 35px;
+    }
+}
